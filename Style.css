@@ -1,0 +1,49 @@
+.hero-section {
+    height: 400px;
+    background-image: url('https://car-images.bauersecure.com/wp-images/12580/040_nsx_classic.jpg'); 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info-section {
+    border-bottom: 1px solid #ddd;
+}
+
+.project-card {
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    color: white; /* Changed to white for better contrast on images */
+    border: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+/* Background Images with dark overlay for text readability */
+.project-alpha {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://www.insidemazda.co.uk/wp-content/uploads/2020/10/DLS9700-scaled.jpg');
+}
+
+.project-beta {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://news.dupontregistry.com/wp-content/uploads/2024/05/Lamborghini.-Diablo-Main-1080x570.jpg');
+}
+
+.project-gamma {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://www.supercars.net/blog/wp-content/uploads/2016/01/2007_Koenigsegg_CCGT1.jpg');
+}
+
+.expand-text {
+    opacity: 0.9;
+    font-size: 0.9rem;
+}
