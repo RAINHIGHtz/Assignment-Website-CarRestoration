@@ -1,115 +1,287 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jetsons-retro-Autoshop</title>
-    <link rel="icon" type="image/x-icon" href="/Icons/PageIcon.ico">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="Style.css">
-</head>
+.navbar {
+    background-color: #383838 !important;
+}
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-        <div class="container">
-            <a class="navbar-brand" href="#"><strong>Jetson's Retro Autoshop</strong></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="Index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="Pages/Projects.html">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="Pages/Contact-me.html">Contact-us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="Pages/Rally-and-Motorsport-Events.html">Rally/Motorsport events</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+.navbar-brand,
+.navbar-brand strong {
+    color: snow !important;
+}
 
-    <header class="hero-section"></header>
+.nav-link {
+    color: snow !important;
+}
 
-    <section class="info-section py-5 text-center bg-light">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-8">
-                    <h1 class="display-4">Jetson's retro autoshop</h1>
-                    <p class="lead">Here at Jetsons Retro Autoshop we specialise in the restoration of older/classic cars. Our team transforms former automotive legends back into their old selves. Work with us to preserve the memories of many past drivers.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+.nav-link:hover {
+    color: #FFFAFA !important;
+}
 
-    <section class="jack-section py-5">
-        <div class="container">
-            <div class="row align-items-center g-4">
-                <div class="col-md-6">
-                    <div class="jack-image-container"></div>
-                </div>
-                <div class="col-md-6">
-                    <h2 class="mb-4">Meet Jack Jetson</h2>
-                    <p class="lead">Jack runs a thriving autoshop in Birmingham, where his passion for restoring classic cars has earned him a stellar reputation in the automotive community. With meticulous attention to detail, he breathes new life into automotive treasures, bringing forgotten vehicles back to their former glory.</p>
-                    <p class="lead">Beyond the workshop, Jack's love for classic cars extends to organizing and hosting rally events at his personal track, bringing together enthusiasts and collectors from across the region. These events have become a cornerstone of the local classic car scene, celebrating the timeless appeal of vintage automobiles.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+.navbar-toggler {
+    border-color: snow !important;
+}
 
-    <section class="projects-section py-5">
-        <div class="container">
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="project-card project-alpha p-5 text-center shadow-sm">
-                        <a href="Pages/Projects.html" class="stretched-link text-decoration-none text-white"></a>
-                            <h3>Mazda 1990's mx5 "miata"</h3>
-                            <p class="expand-text">.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="project-card project-beta p-5 text-center shadow-sm">
-                        <a href="Pages/Projects.html" class="stretched-link text-decoration-none text-white"></a>    
-                            <h3>Mini Cooper</h3>
-                            <p class="expand-text"></p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="project-card project-gamma p-5 text-center shadow-sm">
-                        <a href="Pages/Projects.html" class="stretched-link text-decoration-none text-white"></a>
-                            <h3>1999 subaru wrx sti</h3>
-                            <p class="expand-text"></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23FFFAFA' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <footer class="footer bg-dark text-white py-5">
-        <div class="container">
-            <div class="row mb-4">
-                <div class="col-md-8">
-                    <h5>Jetson's Retro Autoshop</h5>
-                    <p><strong>Address:</strong> 123 Restoration Lane, Birmingham, B1 1AA, UK</p>
-                    <p><strong>Operating Hours:</strong> Monday - Friday: 8:00 AM - 6:00 PM | Saturday: 9:00 AM - 4:00 PM | Sunday: Closed</p>
-                    <p><strong>Company Registration:</strong> 12345678</p>
-                </div>
-                <div class="col-md-4 text-end">
-                    <h5>Follow Us</h5>
-                    <div class="social-links">
-                        <a href="#" class="social-icon" title="Facebook">f</a>
-                        <a href="#" class="social-icon" title="Twitter">𝕏</a>
-                        <a href="#" class="social-icon" title="Instagram">@</a>
-                        <a href="#" class="social-icon" title="YouTube">▶</a>
-                    </div>
-                </div>
-            </div>
-            <hr>
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <p>&copy; 2026 Jack's Retro Autoshop. All rights reserved.</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-</body>
-</html>
+.hero-section {
+    height: 400px;
+    background-image: url('/Icons/ClassicCarGaragebanner.png'); 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info-section {
+    border-bottom: 1px solid #ddd;
+}
+
+.project-card {
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    color: snow; 
+    border: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-alpha {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://www.insidemazda.co.uk/wp-content/uploads/2020/10/DLS9700-scaled.jpg');
+}
+
+.project-beta {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://lh4.googleusercontent.com/proxy/o0pr0IXT1PS821A9SODBrWNqz-D1U4y2Rs1HSBIIRO4JWtpVkDSoyFHmPV7VlIDCEGB9h9UnjfCPvcBec78EyRup-fMZnrcPj8pOOvYH-fjMuVrPoe4');
+}
+
+.project-gamma {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://cdn.themarket.co.uk/81e90a7d-40c8-4eec-86cc-8fc45f9c4690/682ae86d-9020-40d1-ba41-49a6a8090b16.jpg?optimizer=image&width=650&height=500');
+}
+
+.expand-text {
+    opacity: 0.9;
+    font-size: 0.9rem;
+}
+
+.jack-image-container {
+    min-height: 400px;
+    background-image: url('/Icons/jack\'s\ rally\ subaru\ final.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.projects-tabs {
+    display: flex;
+    align-items: center;
+    background-color: #f8f9fa;
+    height: calc(100vh - 60px);
+    width: 100%;
+}
+
+.tabs-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 1px;
+}
+
+.tab-segment {
+    flex: 1;
+    background-color: #fff;
+    border-right: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: flex 0.4s ease;
+    cursor: pointer;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+}
+
+.tab-segment::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: inherit;
+    background-size: cover;
+    background-position: center;
+    filter: blur(0px);
+    z-index: 1;
+}
+
+.tab-segment:last-child {
+    border-right: none;
+}
+
+.tab-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    background-color: #464646;
+    color: snow;
+    min-width: 60px;
+    white-space: nowrap;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 2;
+}
+
+.tab-content {
+    flex: 1;
+    padding: 30px;
+    overflow-y: auto;
+    display: none;
+    position: relative;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+.tab-segment:hover {
+    flex: 2;
+}
+
+.tab-segment:hover .tab-content {
+    display: block;
+}
+
+.tab-segment:hover .tab-label {
+    display: none;
+}
+
+.contact-section {
+    background-color: #f8f9fa;
+}
+
+.contact-info-box {
+    background-color: snow;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.contact-info-box h3 {
+    color: #464646;
+    margin-bottom: 20px;
+}
+
+.contact-info-box p {
+    margin-bottom: 10px;
+    color: #464646;
+}
+
+.contact-form {
+    background-color: snow;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    margin-top: 50px;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+}
+
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #464646;
+    color: snow;
+    text-decoration: none;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.social-icon:hover {
+    background-color: #464646;
+}
+
+/* Calendar styles */
+.calendar-section {
+    padding-bottom: 40px;
+}
+
+.calendar {
+    background: #FFFAFA;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+.calendar-weekdays {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    font-weight: 600;
+    color: #464646;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.calendar-weekdays div { padding: 8px 0; }
+
+.calendar-days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.day {
+    min-height: 90px;
+    background: #f7f7f7;
+    border-radius: 6px;
+    padding: 8px;
+    position: relative;
+    color: #464646;
+}
+
+.day.empty { background: transparent; box-shadow: none; }
+
+.day.event { background: linear-gradient(180deg, rgba(255,250,250,0.9), rgba(255,250,250,0.9)); }
+
+.event-badge {
+    position: absolute;
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+    padding: 6px 8px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+}
+
+.event-badge.motorsport { background: rgba(13,110,253,0.95); color: #FFFAFA; }
+.event-badge.rally { background: rgba(255,193,7,0.95); color: #222; }
+
+@media (max-width: 767px) {
+    .calendar-weekdays { font-size: 0.9rem; }
+    .day { min-height: 70px; }
+}
