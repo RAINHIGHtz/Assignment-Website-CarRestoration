@@ -20,7 +20,7 @@
     cursor: pointer;
     background-size: cover;
     background-position: center;
-    color: white; 
+    color: snow; 
     border: none;
     position: relative;
     overflow: hidden;
@@ -111,8 +111,8 @@
     padding: 20px;
     font-weight: bold;
     font-size: 1.1rem;
-    background-color: #333;
-    color: white;
+    background-color: #464646;
+    color: snow;
     min-width: 60px;
     white-space: nowrap;
     flex-shrink: 0;
@@ -147,7 +147,7 @@
 }
 
 .contact-info-box {
-    background-color: white;
+    background-color: snow;
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -155,17 +155,17 @@
 }
 
 .contact-info-box h3 {
-    color: #333;
+    color: #464646;
     margin-bottom: 20px;
 }
 
 .contact-info-box p {
     margin-bottom: 10px;
-    color: #555;
+    color: #464646;
 }
 
 .contact-form {
-    background-color: white;
+    background-color: snow;
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -187,8 +187,8 @@
     justify-content: center;
     width: 40px;
     height: 40px;
-    background-color: #555;
-    color: white;
+    background-color: #464646;
+    color: snow;
     text-decoration: none;
     border-radius: 50%;
     font-size: 1.2rem;
@@ -196,7 +196,7 @@
 }
 
 .social-icon:hover {
-    background-color: #777;
+    background-color: #464646;
 }
 
 /* Calendar styles */
@@ -205,7 +205,7 @@
 }
 
 .calendar {
-    background: #fff;
+    background: #FFFAFA;
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 6px 20px rgba(0,0,0,0.08);
@@ -216,7 +216,7 @@
     grid-template-columns: repeat(7, 1fr);
     text-align: center;
     font-weight: 600;
-    color: #444;
+    color: #464646;
     padding-bottom: 10px;
     border-bottom: 1px solid #eee;
 }
@@ -236,12 +236,12 @@
     border-radius: 6px;
     padding: 8px;
     position: relative;
-    color: #222;
+    color: #464646;
 }
 
 .day.empty { background: transparent; box-shadow: none; }
 
-.day.event { background: linear-gradient(180deg, rgba(255,255,255,0.9), rgba(250,250,250,0.9)); }
+.day.event { background: linear-gradient(180deg, rgba(255,250,250,0.9), rgba(255,250,250,0.9)); }
 
 .event-badge {
     position: absolute;
@@ -253,7 +253,7 @@
     font-size: 0.85rem;
 }
 
-.event-badge.motorsport { background: rgba(13,110,253,0.95); color: #fff; }
+.event-badge.motorsport { background: rgba(13,110,253,0.95); color: #FFFAFA; }
 .event-badge.rally { background: rgba(255,193,7,0.95); color: #222; }
 
 @media (max-width: 767px) {
